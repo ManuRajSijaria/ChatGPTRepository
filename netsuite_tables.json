@@ -1,0 +1,6 @@
+{
+"transaction_lines": {"integration": "netsuite_1","primary_keys":"transaction_id,transaction_line_id"},
+"transaction_links": {"integration": "netsuite_1","primary_keys":"applied_transaction_id,applied_transaction_line_id,original_transaction_id,original_transaction_line_id,link_type_code"},
+"nexttransactionlinelink":{"integration": "netsuite_2","primary_keys":"nextdoc,nextline,previousdoc,previousline,linktype"},
+"transactionline":{"integration": "netsuite_2","primary_keys":"transaction,linesequencenumber"}
+}
